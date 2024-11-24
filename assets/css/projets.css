@@ -1,0 +1,47 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(190, 3, 159, 0.733);
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: block;
+}
+
+.btn {
+    max-width: 200px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.titre {
+    text-decoration: underline;
+}

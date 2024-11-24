@@ -1,0 +1,129 @@
+#contact {
+  color: #000000;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+form label,
+.contact-holder {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-holder img {
+  width: 30px;
+  height: 30px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 5px;
+  background-color: transparent;
+	resize: none;
+}
+
+button[type="submit"] {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #e55e00;
+}
+
+/*button[type="submit"] {
+  margin: auto;
+  border: 0px;
+  padding: 1rem 3rem;
+  letter-spacing: 1px;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(208, 222, 33, 0.3) 20%,
+    rgba(79, 220, 74, 0.3) 30%,
+    rgba(63, 218, 216, 0.3) 40%,
+    rgba(186, 12, 248, 0.3) 80%,
+    rgba(251, 7, 217, 1) 90%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  background-size: 200% 200%;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+  border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
+  animation: borders 5s ease-in-out alternate infinite,
+    shadows 6.5s ease-in-out alternate infinite,
+    letters 5s ease-in-out alternate infinite,
+    grow 7.5s ease-in-out alternate infinite, backgrounds 8s linear infinite;
+}
+
+@keyframes borders {
+  25% {
+    border-radius: 950px 550px 350px 950px / 350px 950px 550px 450px;
+  }
+  50% {
+    border-radius: 950px 250px 350px 950px / 350px 950px 350px 450px;
+  }
+  75% {
+    border-radius: 550px 550px 350px 150px / 350px 950px 350px 450px;
+  }
+  100% {
+    border-radius: 950px 250px 950px 250px / 250px 750px 250px 750px;
+  }
+}
+
+@keyframes shadows {
+  0% {
+    box-shadow: #48abe0 0 0 10px;
+  }
+  50% {
+    box-shadow: blueviolet 0 0 30px;
+  }
+  75% {
+    box-shadow: rebeccapurple 0 0 20px;
+  }
+  100% {
+    box-shadow: #48abe0 0 0 10px;
+  }
+}
+
+@keyframes backgrounds {
+  to {
+    background-position: -200% 0%;
+  }
+}
+
+@keyframes letters {
+  to {
+    letter-spacing: 5px;
+  }
+}
+
+@keyframes grow {
+  to {
+    transform: scale(0.85);
+  }
+}*/

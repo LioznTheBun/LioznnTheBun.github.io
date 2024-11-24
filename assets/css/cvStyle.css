@@ -1,0 +1,165 @@
+/********************/
+/* Eléments communs */
+/********************/
+
+body {
+    margin: 0;
+    word-break: break-word;
+    font-family: Calibri;
+    color: #747474;
+}
+
+.page-container {
+    width: 100%;
+    background-color: #FFFFFF;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+}
+
+/*********************/
+/* Colonne de gauche */
+/*********************/
+
+#left-column {
+    background-color: #d8ebfd;
+    
+    width: 26%;
+}
+
+.container-photo {
+    display: flex;
+    justify-content: center;
+    background: #747474;
+    padding: 28px;
+}
+
+.container-rubriques {
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 150px;
+    border: 2px solid white;
+}
+
+.rubrique {
+    margin-bottom: 45px;
+}
+
+.rubrique-texte {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.rubrique-titre {
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    display: inline-flex;
+    margin-right: 9px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.icon-image-left {
+    filter: invert(100%);
+    max-width: 20px;
+}
+
+.icon-container .icon-image {
+    padding: 6px;
+}
+
+.detail-text {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.sous-categorie-titre-left {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #6080b8;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+/*********************/
+/* Colonne de droite */
+/*********************/
+
+#right-column {
+    padding: 25px 35px;
+    flex-grow: 1;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.intitule-cv {
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.categorie-container .icon-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+    background-color: #747474;
+}
+
+.categorie-container .icon-image {
+    width: 30px;
+}
+
+.categorie-titre-container {
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.categorie-titre {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin: 0;
+    color: #d6974c;
+}
+
+.sous-categorie-container {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.sous-categorie-titre {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.sous-categorie-date {
+    display: block;
+}
+
+.org-name {
+    color: #d6974c;
+}
